@@ -1,0 +1,988 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+div,
+img,
+pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+/*******商城顶部盒子********/
+
+.site-topbox {
+	width: 100%;
+	height: 40px;
+	background: #333 none repeat scroll;
+}
+
+.topbox {
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+/*******左边导航*********/
+.topboxl {
+	width: 515px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.topboxl li {
+	font-size: 12px;
+	float: left;
+}
+
+.shul {
+	font-size: 12px;
+	color: #424242;
+	margin: 0 0.5em;
+}
+
+.topboxl ul li a {
+	color: #B0B0B0;
+	text-decoration: none;
+}
+
+.topboxl li a:hover {
+	color: #fff;
+}
+/********左边结束*********/
+/******注册和登陆*******/
+.topboxl2 {
+	width: 711px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+}
+
+.topboxl2 ul {
+	width: 576px;
+	height: 40px;
+	float: left;
+}
+
+.topboxl2 li {
+	font-size: 12px;
+	float: right;
+	margin: 0 3px;
+}
+
+.topboxl2 li a:hover {
+	color: #fff;
+}
+
+.topboxl2 ul li a {
+	color: #B0B0B0;
+}
+
+.shuw {
+	font-size: 12px;
+	color: #424242;
+	margin: 0 0.5em;
+	float: right;
+}
+
+/*******注册和登陆结束********/
+/**********购物车**********/
+.topboxl3 {
+	width: 120px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	float: right;
+	text-align: center;
+	background: #424242 none repeat scroll;
+	margin-left: 15px;
+	display: inline;
+}
+
+.topboxl3 a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #B0B0B0;
+}
+
+.topboxl3 a:hover {
+	color: #ff6700;
+	background: #fff;
+}
+/******购物车结束*******/
+/***********顶部css结束**************/
+
+/**************首页主导航***************/
+.navigationbarbox {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.navigation {
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 22px;
+	margin-right: 5px;
+}
+
+/*********中间导航************/
+.navigator {
+	width: 850px;
+	height: 88px;
+	float: left;
+	padding-top: 12px;
+}
+
+.navigationText {
+	margin-left: 168px;
+}
+
+.firstfloor {
+	font-size: 16px;
+	float: left;
+}
+
+.firstfloor>a {
+	padding: 27px 18px 39px;
+	color: #333;
+	display: block;
+}
+
+.firstfloor a:hover {
+	color: #ff6700;
+}
+
+.secondfloor {
+	width: 100%;
+	height: 229px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	z-index: 99;
+	display: none;
+	border-top: 1px solid #E0E0E0;
+	background: #fff;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.18);
+}
+
+.pulldownbox {
+	width: 1226px;
+	height: 201px;
+	margin: 0 auto;
+}
+
+.pulldown {
+	height: 201px;
+	width: 1226px;
+	font-size: 12px;
+}
+
+.pulldown li {
+	width: 180px;
+	padding: 35px 12px 0;
+	float: left;
+	text-align: center;
+}
+
+.pulldown-img {
+	width: 160px;
+	height: 110px;
+	margin: 0 auto 16px;
+}
+
+.pulldown-img img {
+	width: 160px;
+	height: 110px;
+}
+
+.pulldown-brand {
+	line-height: 20px;
+	color: #333;
+}
+
+.pulldown li p {
+	line-height: 20px;
+	color: #ff6700;
+}
+/**********中间导航结束***********/
+
+/****右边搜索****/
+.searchbar {
+	width: 296px;
+	height: 50px;
+	float: right;
+	border: 1px solid #e0e0e0;
+	margin-top: 25px;
+}
+
+.searchbar:hover {
+	border-color: #b0b0b0;
+}
+
+.searchbox {
+	width: 225px;
+	height: 50px;
+	border-style: none;
+	padding: 0 10px;
+	border-right: 1px solid #e0e0e0;
+	outline: none;
+}
+
+.searchbox:hover {
+	border-color: #b0b0b0;
+}
+
+.wristband {
+	font-size: 12px;
+	color: #757575;
+	background: #eee;
+	float: left;
+	margin: 0 0.2em;
+	padding: 0 5px;
+	display: block;
+	position: relative;
+	top: -33px;
+	right: -130px;
+}
+
+.wristband:hover {
+	color: #fff;
+	background: #ff6700;
+}
+
+.searchbar-picture {
+	width: 48px;
+	height: 50px;
+	display: block;
+	float: right;
+}
+
+.searchbar-picture:hover {
+	color: #ff6700;
+}
+/*****右边搜索结束*****/
+
+/**************产品列表和背景图片转换****************/
+.bannerbox{
+	width: 100%;
+	height: 1108px;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	position: relative;
+}
+/**背景图片**/
+.backgroundpicture{
+	width: 1226px;
+	height: 460px;
+	position: relative;
+}
+.backgroundpicture img {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/************/
+/*****左边产品列表*****/
+.banner-left{
+	width: 234px;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 20px 0;
+}
+.banner-left>li>a {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 30px;
+	line-height: 42px;
+}
+
+.banner-left>li>a>p {
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 20px;
+	color: #b0b0b0;
+}
+
+.banner-left>li:hover {
+	background: #ff6700;
+}
+/******************/
+/*图片转换五个点的css*/
+.banner-right{
+	width: 100px;
+	height: 10px;
+	background: transparent;
+	position: absolute;
+	right: 35px;
+	bottom: 25px;
+}
+
+.banner-right li {
+	width: 6px;
+	height: 6px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+.banner-right li:hover {
+	border: 2px solid rgba(0, 0, 0, 0.4);
+	background: rgba(255, 255, 255, 0.4);
+}
+/******************/
+
+/*图片转换左右点击css样式*/
+.bannertpz{
+	height: 69px;
+	width: 41px;
+	line-height: 69px;
+	text-align: center;
+	background: transparent url("../img/icon-slides.png") no-repeat scroll -84px 50%;
+	position: absolute;
+	left: 234px;
+	top: 190px;
+}
+
+.bannertpz:hover{
+	background-position: 0px 50%;
+}
+
+.bannertpy{
+	height: 69px;
+	width: 41px;
+	line-height: 69px;
+	text-align: center;
+	background: transparent url("../img/icon-slides.png") no-repeat scroll -125px 50%;
+	position: absolute;
+	right: 0;
+	top: 190px;
+}
+
+.bannertpy:hover{
+	background-position: -42px 50%;
+}
+/*****************************/
+/****************产品列表和背景图片转换结束*****************/
+
+/******推荐列表******/
+.recommend-box{
+	width: 1229px;
+	height: 634px;
+	margin: 0 auto 0 62px;
+}
+
+.recommendbox{
+	width: 100%;
+	height: 170px;
+	margin-top: 14px;
+	margin-bottom: 26px;
+}
+
+/**左边推荐**/
+.recommend1{
+	width: 234px;
+	height: 170px;
+	background: #5f5750 none;
+	float: left;
+}
+
+.sixIdentifying{
+	width: 228px;
+	height: 164px;
+	padding: 3px 3px;
+}
+
+.identifying{
+	height: 71px;
+	width: 68px;
+	margin: 0 2px 2px 2px;
+	background: #5f5750;
+	float: left;
+	text-align: center;
+}
+
+.identifying a{
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.7);
+	margin: 0 auto;
+}
+
+.identifying a:hover{
+	color: #fff;
+}
+
+.identifying a img{
+	width: 38px;
+	height: 38px;
+}
+
+/**竖线和横线**/
+.mainstring{
+	height: 66px;
+	width: 1px;
+	margin: 5px 2px;
+	background: gray;
+	float: left;		
+}
+
+.transverseline{
+	width: 63px;
+	height: 1px;
+	margin: 1px 6px 4px;
+	background: gray;
+	float: left;
+}
+/**左边推荐结束**/
+/**右边推荐picture**/
+.recommend2{
+	width: 316px;
+	height: 170px;
+	margin-left: 15px;
+	float: left;
+}
+/**右边结束**/
+/*******推荐列表结束********/
+
+/*小米明星单品*/
+.hot-saleProducts{
+	width: 1226px;
+	height: 438px;
+	-moz-transform-origin: 0 auto;
+}
+
+.hot-saleHead{
+	width: 100%;
+	height: 58px;
+}
+
+.mxdp{
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+	float: left;
+}
+
+.leftbrackets{
+	float: right;
+	width: 24px;
+	height: 16px;
+	padding: 3px 5px;
+	border: 1px solid #e0e0e0;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+.rightbrackets{
+	float: right;
+	width: 24px;
+	height: 16px;
+	padding: 3px 5px;
+	border: 1px solid #e0e0e0;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+.leftbrackets a{
+	color: #757575;
+}
+.rightbrackets{
+	color: #757575;
+}
+.leftbrackets a:hover{
+	color:#ff6700;
+}
+.rightbrackets a:hover{
+	color:#ff6700;
+}
+/*小米明星单品头部结束*/
+/*产品css样式*/
+.singleProduct-box{
+	width: 1226px;
+	height: 340px;
+	padding-bottom: 40px;
+}
+
+.singleProductbox li{
+	width: 234px;
+	height: 300px;
+	padding-top: 39px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	text-align: center;
+	background: #fafafa;
+}
+
+.photo {
+	width: 160px;
+	height: 160px;
+	margin-bottom: 20px;
+}
+
+.xiaomi-a{
+	border-top-color: #FFAC13;
+	float: left;
+	margin-right: 14px;
+}
+.xiaomi-b{
+	border-top-color: #83C44E;
+	float: left;
+	margin-right: 14px;
+}
+.xiaomi-c{
+	border-top-color: #2196F3;
+	float: left;
+	margin-right: 14px;
+}
+.xiaomi-d{
+	border-top-color: #E53935;
+	float: left;
+	margin-right: 14px;
+}
+.xiaomi-e{
+	border-top-color: #00C0A5;
+	margin-right: 0px;
+	float: left;
+}
+
+.singleProductName{
+	font-size: 14px;
+	color: #212121;
+	margin: 0 20px 2px;
+}
+
+.productPresentation{
+	height: 18px;
+	margin: 0px 20px 12px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+
+.productPrice{
+	color: #ff6709;
+	font-size: 14px;
+}
+/****小米明星单品结束****/
+/*正式商店产品最外边框架*/
+.shopbox{
+	width: 100%;
+	height: 4519px;
+	background: #f5f5f5;
+	padding-top: 60px;
+}
+.shop{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*******************/
+    
+   /*智能硬件*/
+/*智能硬件头部*/
+.IntelligentHardware-box{
+	width: 100%;
+	height: 686px;
+	margin-bottom: 8px;
+}
+.IntelligentHardware-head{
+	width: 1226px;
+	height: 58px;
+}
+.IntelligentHardware-head h2{
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+	float: left;
+}
+.rightCharacter{
+	float: right;
+	width: 100px;
+	height: 58px;
+	margin-right: -8px;
+}
+.rightCharacter a{
+	font-size: 16px;
+	line-height: 58px;
+	color: #424242;
+}
+.rightCharacter a p{
+	float: right;
+	margin-top: 10px;
+}
+.rightCharacter a:hover{
+	color: #ff6700;
+}
+/***********************************/
+
+/*商品部分*/
+/**左边大图片**/
+.IntelligentHardwarebox{
+	height: 628px;
+	width: 100%;
+}
+
+.IntelligentHardwarebox-left{
+	width: 248px;
+	height: 614px;
+	float: left;
+	margin-left: -14px;
+}
+.IntelligentHardwarebox-left img{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 614px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.IntelligentHardwarebox-left img:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+/******************/
+
+/*右边产品*/
+.IntelligentHardwarebox-right{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.Intelligent-products{
+	width: 992px;
+	height: 314px;
+	float: left;
+	margin-right: -10px;
+}
+.IntelligentProducts{
+	width: 234px;
+	height: 260px;
+	padding: 20px 0;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	text-align: center;
+	background: #fff;
+	float: left;
+}
+.IntelligentProductPicture{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 18px;
+}
+.IntelligentProducts:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+.IntelligentProductName{
+	font-size: 14px;
+	color: #212121;
+	margin: 0 10px 2px;
+}
+.IntelligentProductPresentation{
+	height: 18px;
+	margin: 0px 20px 12px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.IntelligentProductPrice{
+	color: #ff6709;
+	font-size: 13px;
+	margin: 0 10px 14px;
+}
+
+/*产品上面一些折扣，新品提示*/
+.hint1{
+	width: 64px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: -280px;
+	left: 85px;
+	background-color: #83c44e;
+}
+.hint2{
+	width: 64px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: -280px;
+	left: 85px;
+	background-color: #ffac13;
+}
+.hint3{
+	width: 64px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	top: -280px;
+	left: 85px;
+	background-color: #e53935;
+}
+/***************************/
+/************智能硬件结束***********/
+
+/**********商城搭配部分************/
+      /**搭配头部**/
+.match-box{
+	width: 100%;
+	height: 686px;
+	margin-bottom: 8px;
+}
+.match-head{
+	width: 1226px;
+	height: 58px;
+}
+.match-head h2{
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+	float: left;
+}
+.match-rightCharacterbox{
+	width: 330px;
+	height: 58px;
+	float: right;
+	margin-right: -3px;
+}
+.right-Character{
+	margin: 0;
+	padding: 16px 0 0;
+	list-style-type: none;
+	font-size: 16px;
+	float: left;
+}
+.right-Character li{
+	margin: 0 0 0 30px;
+	float: left;
+}
+.hot a{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+.right-Character li a:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+/*****搭配头部结束******/
+/******搭配商品部分******/
+/*左边图片*/
+.matchbox{
+	width: 100%;
+	height: 628px;
+}
+.match-left{
+	width: 248px;
+	height: 614px;
+	float: left;
+	margin-left: -14px;
+}
+.matchleftPicture1{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.matchleftPicture2{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.matchleftPicture1:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+.matchleftPicture2:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+/**左边图片结束/
+
+/**右边产品**/
+.match-right{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.match-products{
+	width: 992px;
+	height: 314px;
+	float: left;
+}
+.matchProducts{
+	width: 234px;
+	height: 246px;
+	padding: 34px 0 20px;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	text-align: center;
+	background: #fff;
+	float: left;
+}
+.matchProductPicture{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 18px;
+}
+.matchProductName{
+	font-size: 14px;
+	margin: 0 10px;
+	color: #212121;
+}
+.matchProductPrice{
+	text-align: center;
+	color: #ff6700;
+	margin: 0 10px 10px;
+	font-size: 14px;
+}
+.matchProductEvaluation{
+	font-size: 12px;
+	margin: 0 10px;
+	text-align: center;
+	color: #b0b0b0;
+}
+.matchProducts:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+	margin-top: -2px;
+}
+
+.matchlast1{
+	position: relative;
+	width: 234px;
+	height: 93px;
+	padding-top: 50px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+	float: left;
+}
+.matchlast1:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+	margin-top: -2px;
+}
+.matchlast1Picrure1{
+	position: absolute;
+	right: 20px;
+	top: 32px;
+	width: 80px;
+	height: 80px;
+}
+.matchlast1 h3{
+	margin: -10px 110px 5px 30px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+.matchlast1 p{
+	margin: 0 110px 0 30px;
+	font-size: 14px;
+	color: #ff6700;
+}
+.matchlast2{
+	width: 234px;
+	height: 93px;
+	padding-top: 50px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+	float: left;
+}
+.matchlast2:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;   /*控制变换的时间*/
+	margin-top: -2px;
+}
+.matchlast2Picture2{
+	position: absolute;
+	height: 48px;
+	width: 48px;
+	margin: -10px 35px 5px 120px;
+}
+.matchlast2 a{
+	display: block;
+	margin: 0 110px 0 30px;
+	font-size: 18px;
+	color: #333;
+}
+.matchlast2 p{
+	display: block;
+	margin: -0px 110px 5px 30px;
+	font-size: 12px;
+	color: #757575;
+}
+/****右边产品结束****/
+/***搭配部分结束***/
+
+/***配件部分开始***/
