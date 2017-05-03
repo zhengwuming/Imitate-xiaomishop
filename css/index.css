@@ -806,22 +806,22 @@ a {
 	float: right;
 	margin-right: -3px;
 }
-.right-Character{
+.matchRight-Character{
 	margin: 0;
 	padding: 16px 0 0;
 	list-style-type: none;
 	font-size: 16px;
 	float: left;
 }
-.right-Character li{
+.matchRight-Character li{
 	margin: 0 0 0 30px;
 	float: left;
 }
-.hot a{
+.matchhot a{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
-.right-Character li a:hover{
+.matchRight-Character li a:hover{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
@@ -986,3 +986,205 @@ a {
 /***搭配部分结束***/
 
 /***配件部分开始***/
+/**配件头部**/
+
+.parts-box{
+	width: 100%;
+	height: 686px;
+	margin-bottom: 8px;
+}
+.parts-head{
+	width: 1226px;
+	height: 58px;
+}
+.parts-head h2{
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+	float: left;
+}
+.parts-rightCharacterbox{
+	width: 330px;
+	height: 58px;
+	float: right;
+	margin-right: -3px;
+}
+.partsRight-Character{
+	margin: 0;
+	padding: 16px 0 0 30px;
+	list-style-type: none;
+	font-size: 16px;
+	float: left;
+}
+.partsRight-Character li{
+	margin: 0 0 0 30px;
+	float: left;
+}
+.partshot a{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+.partsRight-Character li a:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+/*****配件头部结束******/
+/******配件商品部分******/
+/*左边图片*/
+.partsbox{
+	width: 100%;
+	height: 628px;
+}
+.parts-left{
+	width: 248px;
+	height: 614px;
+	float: left;
+	margin-left: -14px;
+}
+.partsleftPicture1{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.partsleftPicture2{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.partsleftPicture1:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+.partsleftPicture2:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
+	margin-top: -2px;
+}
+/**左边图片结束/
+
+/**右边产品**/
+.parts-right{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.parts-products{
+	width: 992px;
+	height: 314px;
+	float: left;
+}
+.partsProducts{
+	width: 234px;
+	height: 246px;
+	padding: 34px 0 20px;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	text-align: center;
+	background: #fff;
+	float: left;
+}
+.partsProductPicture{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 18px;
+}
+.partsProductName{
+	font-size: 14px;
+	margin: 0 10px;
+	color: #212121;
+}
+.partsProductPrice{
+	text-align: center;
+	color: #ff6700;
+	margin: 0 10px 10px;
+	font-size: 14px;
+}
+.partsProductEvaluation{
+	font-size: 12px;
+	margin: 0 10px;
+	text-align: center;
+	color: #b0b0b0;
+}
+.partsProducts:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+	margin-top: -2px;
+}
+
+.partslast1{
+	position: relative;
+	width: 234px;
+	height: 93px;
+	padding-top: 50px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+	float: left;
+}
+.partslast1:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;
+	margin-top: -2px;
+}
+.partslast1Picrure1{
+	position: absolute;
+	right: 20px;
+	top: 32px;
+	width: 80px;
+	height: 80px;
+}
+.partslast1 h3{
+	margin: -10px 110px 5px 30px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+.partslast1 p{
+	margin: 0 110px 0 30px;
+	font-size: 14px;
+	color: #ff6700;
+}
+.partslast2{
+	width: 234px;
+	height: 93px;
+	padding-top: 50px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+	float: left;
+}
+.partslast2:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s;   /*控制变换的时间*/
+	margin-top: -2px;
+}
+.partslast2Picture2{
+	position: absolute;
+	height: 48px;
+	width: 48px;
+	margin: -10px 35px 5px 120px;
+}
+.partslast2 a{
+	display: block;
+	margin: 0 110px 0 30px;
+	font-size: 18px;
+	color: #333;
+}
+.partslast2 p{
+	display: block;
+	margin: -0px 110px 5px 30px;
+	font-size: 12px;
+	color: #757575;
+}
+/***配件部分结束***/
