@@ -240,28 +240,34 @@ a {
 	width: 296px;
 	height: 50px;
 	float: right;
-	border: 1px solid #e0e0e0;
 	margin-top: 25px;
 }
 
-.searchbar:hover {
-	border-color: #b0b0b0;
+.search-form{
+	position: relative;
+	width: 296px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
 }
 
-.searchbox {
-	width: 225px;
+.search-form:hover{
+	border-color: #b0b0b0;
+	height: 50px;
+}
+
+.searchtext {
+	width: 224px;
 	height: 50px;
 	border-style: none;
 	padding: 0 10px;
 	border-right: 1px solid #e0e0e0;
 	outline: none;
 }
-
-.searchbox:hover {
-	border-color: #b0b0b0;
+.searchtext:hover{
+	border-right-color: #b0b0b0;
 }
 
-.wristband {
+.search-hot-words a{
 	font-size: 12px;
 	color: #757575;
 	background: #eee;
@@ -273,21 +279,47 @@ a {
 	top: -33px;
 	right: -130px;
 }
-
-.wristband:hover {
+.search-hot-words a:hover {
 	color: #fff;
 	background: #ff6700;
 }
 
-.searchbar-picture {
+.searchbar-submit-picture {
 	width: 48px;
-	height: 50px;
+	height: 100%;
 	display: block;
 	float: right;
 }
-
-.searchbar-picture:hover {
+.searchbar-submit-picture:hover {
 	color: #ff6700;
+}
+
+.keyword-list{
+	display: none;
+	position: absolute;
+	z-index: 30;
+	width: 244px;
+	border: 1px solid #ff6700;
+	border-top: 0;
+	background: #fff;
+}
+.keyword-list ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.keyword-list ul li a{
+	position: relative;
+	display: block;
+	padding: 6px 20px;
+	font-size: 12px;
+	color: #424242;
+}
+.result{
+	position: absolute;
+	right: 15px;
+	top: 6px;
+	color: #b0b0b0;
 }
 /*****右边搜索结束*****/
 
@@ -838,7 +870,7 @@ a {
 	float: left;
 	margin-left: -14px;
 }
-.matchleftPicture1{
+.matchleftPicture{
 	position: relative;
 	float: left;
 	width: 234px;
@@ -847,21 +879,7 @@ a {
 	margin-bottom: 14px;
 	background: #fff;
 }
-.matchleftPicture2{
-	position: relative;
-	float: left;
-	width: 234px;
-	height: 300px;
-	margin-left: 14px;
-	margin-bottom: 14px;
-	background: #fff;
-}
-.matchleftPicture1:hover{
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
-	margin-top: -2px;
-}
-.matchleftPicture2:hover{
+.matchleftPicture:hover{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
 	margin-top: -2px;
@@ -1043,7 +1061,7 @@ a {
 	float: left;
 	margin-left: -14px;
 }
-.partsleftPicture1{
+.partsleftPicture{
 	position: relative;
 	float: left;
 	width: 234px;
@@ -1052,21 +1070,7 @@ a {
 	margin-bottom: 14px;
 	background: #fff;
 }
-.partsleftPicture2{
-	position: relative;
-	float: left;
-	width: 234px;
-	height: 300px;
-	margin-left: 14px;
-	margin-bottom: 14px;
-	background: #fff;
-}
-.partsleftPicture1:hover{
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
-	margin-top: -2px;
-}
-.partsleftPicture2:hover{
+.partsleftPicture:hover{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 	transition: all 0.2s;     /*css3过渡：元素从一种样式逐渐改变为另一种的效果*/
 	margin-top: -2px;
@@ -1187,4 +1191,25 @@ a {
 	font-size: 12px;
 	color: #757575;
 }
+.parts-Evalution{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	width: 234px;
+	height: 0;
+	overflow: hidden;
+	font-size: 12px;
+	background: #ff6700;
+}
+.parts-Evalution a{
+	display: block;
+	padding: 8px 30px;
+	outline: 0;
+}
+.parts-Evalution1{
+	margin-bottom: 5px;
+	color: #fff;
+}
+/**/
 /***配件部分结束***/

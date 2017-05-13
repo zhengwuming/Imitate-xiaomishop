@@ -10,6 +10,33 @@ $(function(){
 })
 /***********************/
 
+/**********右边搜索框**********/
+$(function(){
+	var odiv=$(".keyword-list");
+                $(".searchtext").click(function(event){//为按钮注册click事件处理函数，事件处理函数的参数是事件对象。
+                  showDiv();
+                  $('input').css('border','1px solid #ff6700')
+                $('.searchbar-submit-picture').css('border','1px solid #ff6700') 
+                $('.search-hot-words').css('display','none');
+                $('.search-form').css('border','none');
+               
+                $(document).one("click",function(){
+                    odiv.hide();
+                    $('input').css('border','1px solid #e0e0e0')
+                    $('.searchbar-submit-picture').css('border','1px solid #e0e0e0')
+                    $('.search-hot-words').css('display','block');
+                  });
+                  //用来阻止事件冒泡，否则点击事件冒泡到文档，那么div元素显示后又会瞬间被隐藏。
+                  event.stopPropagation();
+                });
+                odiv.click(function(event){
+                  event.stopPropagation();
+                })
+                function showDiv(){
+                  odiv.fadeIn();
+                }
+})
+/****************************/
 /*****背景图片转换******/
 $(function(){
 	var bannerimg=$(".backgroundpicture img");
