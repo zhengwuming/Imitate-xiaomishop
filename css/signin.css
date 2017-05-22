@@ -1,0 +1,115 @@
+body,p,ul,ol,dl,dd,dt,li,h1,h2,h3,h4,h5,h6,form,input,div,img,pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+#SignIn{
+	width: 100%;
+	height: 592px;
+	background: #F5F5F5;
+}
+
+#layout{
+	width: 854px;
+	height: 512px;
+	margin: auto;
+	padding: 0 34px;
+	background: #FFFFFF;
+}
+.logo{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.title h4{
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.signbox{
+	width: 332px;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.phonenumber{
+	padding-bottom: 15px;
+}
+.phonenumber label{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #757575;
+}
+.phonenumber label input{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px;
+}
+.ImageVerification{
+	width: 450px;
+	padding-bottom: 15px;
+}
+.ImageVerification label{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #757575;
+}
+.ImageVerification label input{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px;
+}
+.ImageVerification img{
+	margin-left: 7px;
+}
+#submit{
+	line-height: 20px;
+}
+#submit input{
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	width: 330px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	background: #FF6700;
+	margin-top: 15px;
+}
+#submit input:hover{
+	background: #ff936a;
+}
+#submit p{
+	font-size: 13px;
+	color: #9d9d9d;
+	margin-top: 10px;
+}
+#footer{
+	text-align: center;
+	height: 80px;
+}
+#footer .footer-list li{
+	color: #333333;
+	display: inline;
+	font-size: 13px;
+}
+#footer .footer-list li a{
+	padding: 0 10px;
+	color: #757575;
+}
+#footer p{
+	padding: 10px;
+	font-size: 12px;
+	color: #757575;
+}

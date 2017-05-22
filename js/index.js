@@ -61,14 +61,14 @@ $(function(){
 	}
 	var t=setInterval(function(){
 		demo("r");
-	},2000);
+	},3000);
 
 	$(".banner").hover(function(){
 		clearInterval(t);
 	},function(){
 		t=setInterval(function(){
 			demo("r");
-		},2000);
+		},3000);
 	})
 
 	$(".bannertpz").click(function(){
@@ -89,3 +89,19 @@ $(function(){
 	})	
 })
 /**********************************/
+
+/**图片放大缩小 
+      $(function(){
+         $(".HotcommentProducts1").mouseenter(function () {
+        var i=$(this).index();
+        $('.HotcommentProductsPicture img').eq(i).stop().animate({ "top": "-25px", "left": "-25px", "width": "356px", "height": "280px"}, 500);
+      }).mouseleave(function () {
+         var i=$(this).index();
+        $('.HotcommentProductsPicture img').eq(i).stop().animate({"top": "0px", "left": "0px", "width": "296px", "height": "220px" }, 500);
+      }); 
+      })****/
+ 
+ 
+/*****背景图片轮播*****/
+
+/********************/
