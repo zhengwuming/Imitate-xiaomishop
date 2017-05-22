@@ -1,0 +1,119 @@
+body,p,ul,ol,dl,dd,dt,li,h1,h2,h3,h4,h5,h6,form,input,div,img,pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+	font-family: Arail, "Microsoft Yahei";
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+#login-head{
+	width: 1130px;
+	height: 100px;
+	margin: 0 auto;
+}
+#login-content{
+	position: relative;
+	width: 100%;
+	height: 588px;
+	background: #E0E0E0;
+}
+.layout{
+	position: absolute;
+	top: 32px;
+	right: 125px;
+	width: 400px;
+	height: 524px;
+	background: #fff;
+}
+.LodingType{
+	text-align: center;
+	font-size: 24px;
+	padding: 27px 0 24px 0;
+}
+.LodingType a:hover{
+	color: #FF6700;
+}
+.LodingType .accountnumber{
+	color: #FF6700;
+}
+.LodingType span{
+	width: 1px;
+	height: 24px;
+	border: 1px solid #E0E0E0;
+	margin: 0 35px 0 24px;
+}
+.login_area{
+	width: 338px;
+	margin: 0 auto;
+}
+.login_area label{
+	display: block;
+	font-size: 14px;
+	border: 1px solid #E0E0E0;
+	margin-bottom: 14px;
+}
+.login_area label input{
+	height: 22px;
+	line-height: 22px;
+	padding: 13px 16px 13px 14px;
+	color: #B0B0B0;
+}
+.login_area .submit{
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	margin-bottom: 14px;
+	color: #FFFFFF;
+	background: #f56600;
+}
+.links{
+	font-size: 13px;
+	text-align: center;
+}
+.links a{
+	color: #9D9D9D;
+	padding: 0 6px;
+}
+#anotherway{
+	text-align: center;
+	position: absolute;
+	display: block;
+	font-size: 14px;
+	bottom: 30px;
+	width: 100%;
+	color: #B0B0B0;
+}
+.login_link{
+	text-align: center;
+	padding-top: 3px;
+}
+.login_link a{
+	margin: 0 15px;
+}
+
+#footer{
+	text-align: center;
+	height: 80px;
+	margin-top: 100px;
+}
+#footer .footer-list li{
+	color: #333333;
+	display: inline;
+	font-size: 13px;
+}
+#footer .footer-list li a{
+	padding: 0 10px;
+	color: #757575;
+}
+#footer p{
+	padding: 10px;
+	font-size: 12px;
+	color: #757575;
+}
