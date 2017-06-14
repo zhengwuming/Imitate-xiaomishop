@@ -8,6 +8,15 @@ $(function(){
 		$(this).find(".secondfloor").hide();
 	})
 })
+
+//产品菜单二级导航
+$(function(){
+	$(".bannerleft-firstfloor").hover(function(){
+		$(this).find(".bannerleft-secondfloor").show();
+	},function(){
+		$(this).find(".bannerleft-secondfloor").hide();
+	})
+})
 /***********************/
 
 /**********右边搜索框**********/
@@ -16,14 +25,14 @@ $(function(){
                 $(".searchtext").click(function(event){//为按钮注册click事件处理函数，事件处理函数的参数是事件对象。
                   showDiv();
                   $('input').css('border','1px solid #ff6700')
-                $('.searchbar-submit-picture').css('border','1px solid #ff6700') 
+                $('.searchbar-submit').css('border','1px solid #ff6700') 
                 $('.search-hot-words').css('display','none');
                 $('.search-form').css('border','none');
                
                 $(document).one("click",function(){
                     odiv.hide();
                     $('input').css('border','1px solid #e0e0e0')
-                    $('.searchbar-submit-picture').css('border','1px solid #e0e0e0')
+                    $('.searchbar-submit').css('border','1px solid #e0e0e0')
                     $('.search-hot-words').css('display','block');
                   });
                   //用来阻止事件冒泡，否则点击事件冒泡到文档，那么div元素显示后又会瞬间被隐藏。
@@ -90,18 +99,16 @@ $(function(){
 })
 /**********************************/
 
-/**图片放大缩小 
+/**图片放大缩小 **/
       $(function(){
-         $(".HotcommentProducts1").mouseenter(function () {
+         $(".HotcommentProduct1").mouseenter(function () {
         var i=$(this).index();
-        $('.HotcommentProductsPicture img').eq(i).stop().animate({ "top": "-25px", "left": "-25px", "width": "356px", "height": "280px"}, 500);
+        $('.HotcommentProductsPicture img').eq(i).stop().animate({"width": "320px", "height": "240px"}, 500);
       }).mouseleave(function () {
          var i=$(this).index();
         $('.HotcommentProductsPicture img').eq(i).stop().animate({"top": "0px", "left": "0px", "width": "296px", "height": "220px" }, 500);
       }); 
-      })****/
- 
- 
-/*****背景图片轮播*****/
+      })
+      
 
 /********************/
