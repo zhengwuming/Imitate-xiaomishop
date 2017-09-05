@@ -636,55 +636,25 @@ a {
 .singleControl:hover{
 	color: #FF6700;
 }
-/*.leftbrackets{
-	float: right;
-	width: 24px;
-	height: 16px;
-	padding: 3px 5px;
-	border: 1px solid #e0e0e0;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 24px;
+.active2{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
 }
 
-.rightbrackets{
-	float: right;
-	width: 24px;
-	height: 16px;
-	padding: 3px 5px;
-	border: 1px solid #e0e0e0;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 24px;
-}
-
-.leftbrackets i{
-	color: #757575;
-	font-size: 16px;
-}
-.rightbrackets i{
-	color: #757575;
-	font-size: 16px;
-}
-.leftbrackets i:hover{
-	color:#ff6700;
-}
-.rightbrackets i:hover{
-	color:#ff6700;
-}
-*/
 /*小米明星单品头部结束*/
 /*产品css样式*/
 .singleProduct-box{
 	width: 1226px;
 	height: 340px;
 	padding-bottom: 40px;
+	overflow: hidden;
 }
 
+.singleProductbox{
+	width: 2480px;
+	height: 300px;
+	transition: margin-left 0.5s ease 0s;
+}
 .singleProductbox li{
 	width: 234px;
 	height: 300px;
@@ -723,7 +693,7 @@ a {
 }
 .xiaomi-e{
 	border-top-color: #00C0A5;
-	margin-right: 0px;
+	margin-right: 14px;
 	float: left;
 }
 
@@ -1008,7 +978,7 @@ a {
 	float: left;
 	margin-left: 22px;
 }
-.matchRight-Character li:hover{
+.matchRight-Character li a:hover{
 	color: #FF6700;
 	border-bottom: 2px solid #FF6700;
 }
@@ -1206,7 +1176,7 @@ a {
 	float: left;
 	margin-left: 30px;
 }
-.partsRight-Character li:hover{
+.partsRight-Character li a:hover{
 	color: #FF6700;
 	border-bottom: 2px solid #FF6700;
 }
@@ -1393,7 +1363,7 @@ a {
 	float: left;
 	margin-left: 27px;
 }
-.circumRight-Character li:hover{
+.circumRight-Character li a:hover{
 	color: #FF6700;
 	border-bottom: 2px solid #FF6700;
 }
@@ -1574,8 +1544,9 @@ a {
 	overflow: hidden;
 }
 .recommend-products{
-	width: 4960px;
+	width: 2480px;
 	height: 314px;
+	transition: margin-left 0.5s ease 0s;
 }
 .recommendProducts{
 	position: relative;
@@ -1737,11 +1708,48 @@ a {
 	padding-top: 45px;
 	border-top: 1px solid #83C44E;
 }
+.contentProduct3{
+	position: relative;
+	text-align: center;
+	width: 296px;
+	height: 374px;
+	float: left;
+	background: #FFFFFF;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	padding-top: 45px;
+	border-top: 1px solid #e53935;
+}
+.contentProduct4{
+	position: relative;
+	text-align: center;
+	width: 296px;
+	height: 374px;
+	float: left;
+	background: #FFFFFF;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	padding-top: 45px;
+	border-top: 1px solid #2196f3;
+}
 .contentProductName1{
 	font-size: 16px;
 	font-weight: 400;
 	color: #FFAC13;
 	margin: 0 10px 18px 10px;
+}
+.contentWrapper{
+	height: 263px;
+	overflow: hidden;
+}
+.content-list{
+	width: 888px;
+	margin-left: 0;
+}
+.content-list li{
+	float: left;
+	height: 263px;
+	width: 296px;
 }
 .contentProductName2{
 	font-size: 20px;
@@ -1758,10 +1766,42 @@ a {
 .contentProductDESC a{
 	color: #B0B0B0;
 }
-.contentProduct1 .contentProductPrice{
+.contentProductPrice{
 	font-size: 13px;
 	height: 21px;
 	margin: 0 10px 15px 10px;
+}
+.contentControl .fa-chevron-left{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 20px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 18px;
+	padding: 10px 0px;
+	color: #B0B0B0;
+	cursor: pointer;
+}
+.contentControl .fa-chevron-left:hover{
+	background: #9D9D9D;
+	color: #FAFAFA;
+}
+.contentControl .fa-chevron-right{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 20px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 18px;
+	padding: 10px 0;
+	color: #B0B0B0;
+	cursor: pointer;
+}
+.contentControl .fa-chevron-right:hover{
+	background: #9D9D9D;
+	color: #FAFAFA;
 }
 /*****内容结束*****/
 

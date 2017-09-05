@@ -110,5 +110,95 @@ $(function(){
       }); 
       })
       
-
 /********************/
+
+/*****小米明星产品*****/
+$(function(){
+	//手动滚动
+          $('.singleControl').hover(function(){
+          clearInterval(timer);
+        },function(){
+          timer=setInterval(active,5000);
+        })
+          
+          $('.singleControl').click(function(){
+            
+            $('.singleProductbox').css({marginLeft:'-1226px'});
+            $('.singleControl').eq(1).addClass('active2').siblings().removeClass('active2');
+            
+          });
+          $('.singleControl').eq(0).click(function(){
+            $('.singleProductbox').css({marginLeft:'0'});
+           $('.singleControl').eq(0).addClass('active2').siblings().removeClass('active2');
+          });
+    
+    //自动轮播
+          var timer=setInterval(active,5000);
+          function active(){
+            $('.singleProductbox').css({marginLeft:'0'});
+            $('.singleControl').eq(0).addClass('active2').siblings().removeClass('active2');
+            var num= parseInt( $('.singleProductbox').css('marginLeft') );
+                if(num==0){
+                  $('.singleProductbox').css({marginLeft:'-1240px'});
+                  $('.singleControl').eq(1).addClass('active2').siblings().removeClass('active2');
+                }
+        }
+          
+    //鼠标事件              
+            $('.singleProductbox').hover(function(){
+              clearInterval(timer);
+            },function(){
+              timer=setInterval(active,5000);
+            })
+})
+
+
+/*******为你推荐*******/
+$(function(){
+	//手动滚动
+          $('.recommendcontrol').hover(function(){
+          clearInterval(timer);
+        },function(){
+          timer=setInterval(active,5000);
+        })
+          
+          $('.recommendcontrol').click(function(){
+            
+            $('.recommend-products').css({marginLeft:'-1226px'});
+            $('.recommendcontrol').eq(1).addClass('active2').siblings().removeClass('active2');
+            
+          });
+          $('.recommendcontrol').eq(0).click(function(){
+            $('.recommend-products').css({marginLeft:'0'});
+           $('.recommendcontrol').eq(0).addClass('active2').siblings().removeClass('active2');
+          });
+    
+    //自动轮播
+          var timer=setInterval(active,5000);
+          function active(){
+            $('.recommend-products').css({marginLeft:'0'});
+            $('.recommendcontrol').eq(0).addClass('active2').siblings().removeClass('active2');
+            var num= parseInt( $('.recommend-products').css('marginLeft') );
+                if(num==0){
+                  $('.recommend-products').css({marginLeft:'-1240px'});
+                  $('.recommendcontrol').eq(1).addClass('active2').siblings().removeClass('active2');
+                }
+        }
+          
+    //鼠标事件              
+            $('.recommend-products').hover(function(){
+              clearInterval(timer);
+            },function(){
+              timer=setInterval(active,5000);
+            })
+})
+/******为你推荐结束*******/
+
+/*********内容开始*********/
+$('.contentControl').click(function(){
+	$('.content-list').css({marginLeft:'-296px'});
+});
+$('.contentControl').eq(0).click(function(){
+	$('.content-list').css({marginLeft:'0'});
+});
+/*********内容结束*********/
